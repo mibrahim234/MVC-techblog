@@ -1,3 +1,4 @@
+// routes that are used to display info to the user 
 const router = require('express').Router();
 
 const apiRoutes = require('./api');

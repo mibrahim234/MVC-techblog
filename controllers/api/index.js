@@ -1,3 +1,4 @@
+// routes that are used for data
 const router = require('express').Router();
 const postRoutes = require('./postRoutes');
 const userRoutes = require('./userRoutes');

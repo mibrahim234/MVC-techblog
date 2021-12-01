@@ -11,7 +11,8 @@
   }
 
 body {
-    background-image: url(../assets/techblog.jpg);
+    background-image: url(../assets/techblog3.jpg);
+    background-color: var(--blue);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -22,8 +23,8 @@ body {
 }
 
 /* TITLE */
-.movie {
-    font-size: 30px;
+.tech {
+    font-size: 40px;
     color: var(--white);
 }
 
