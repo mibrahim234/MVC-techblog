@@ -1,0 +1,127 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow: #fce138;
+    --blue: #00008b;
+    --blue2: #024e76;
+    --lblue: #39a6b2;
+    --white: #fff;
+  }
+
+body {
+    background-image: url(../assets/techblog.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* TITLE */
+.movie {
+    font-size: 30px;
+    color: var(--white);
+}
+
+/* Home, Dashboard */
+.home, .dashy {
+    font-size: 20px; 
+    color: var(--white);
+}
+
+.ryan {
+    position: fixed;
+}
+/* Responsiveness to the movies */
+#movie-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--gray);
+    font-size: 26px;
+    padding-top: 60px;
+}    
+
+
+
+/* FIND A MOVIE, LEAVE A REVIEW (HOMEPAGE) */
+.intro {
+    position: relative; top: 100px;
+    font-size: 30px;
+    color: white;
+    text-align: center; 
+}
+
+/* movie details (individual moviepg) */
+.intro1 {
+    font-size: 20px;
+    color: white;
+    background-color: var(--blue2);
+} 
+
+.individual-movie {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 26px;
+    padding-top: 60px;
+}
+
+/* FOR MOVIE REVIEWS */
+.review-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 26px;
+    padding-top: 60px;
+}
+
+h1 {
+ background-color: var(--blue2);
+ font-size: 30px;
+}
+
+/* H2 AND H3 ARE FOR DASHBOARD */
+h2 {
+    background-color: var(--blue2);
+    font-size: 30px;
+    text-align: center;
+    color: var(--white);
+   }
+
+   h3 {
+    background-color: var(--white);
+    font-size: 30px;
+    text-align: start; 
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+/* Dashboard-CREATE NEW POST */
+.newpost {
+    font-size: 25px;
+    font-weight: bold;
+}
+/* OLD NAV BAR */
+/* nav  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 25px;
+ }
+
+ .title {
+    position: absolute; top: 10px; left: 10px;
+ }
+
+ .logs {
+    position: absolute; top: 10px; right: 10px;
+ } */
+

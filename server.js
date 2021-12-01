@@ -6,7 +6,7 @@ const exphbs = require('express-handlebars');
 const sequelize = require('./config/connection');
 const helpers = require('./utils/helpers');
 
-const hbs = exphbs.create({ helpers });
+ const hbs = exphbs.create({ helpers });
 
 // Sets up the Express App
 const app = express();
@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 3001;
 // Create a new sequelize store using the express-session package
 const sess = {
   secret: 'SECRET', // key to sign the cookie
-  cookie: { expires: 3600000 },
+  cookie: { expires: 3600000 }, // have to login again to use methods 
   resave: false,
   saveUninitialized: true,
   store: new SequelizeStore({
