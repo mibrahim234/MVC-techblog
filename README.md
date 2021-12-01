@@ -1,6 +1,7 @@
 # MVC-techblog ![GitHub license](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 # Live Site 
-Add MVC LiveSite
+https://techblog0100010.herokuapp.com/
+
 
 ## Description
 This application is a techblog, where developers can publish their blog posts and comment on other developers’ posts as well. This site is deployed to Heroku and was built from scratch. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
