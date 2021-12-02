@@ -2,6 +2,7 @@ const router = require('express').Router();
 const { User, Post, Comment } = require('../models');
 
 // Get all posts, include author and comments
+// render's homepage 
 router.get('/', async (req, res) => {
   try {
     const postsData = await Post.findAll({
@@ -38,7 +39,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-// come back to it ***
+// login route 
 router.get('/login', async (req, res) => {
   try {
     if (req.session.logged_in) {
